@@ -1,0 +1,56 @@
+/* 二奢行业轻奢主题 */
+:root {
+  --vp-c-brand: #D4AF37;
+  --vp-c-brand-light: #b89628;
+  --vp-c-brand-dark: #9a7d1f;
+  --vp-c-bg: #F5F0E6;
+  --vp-c-bg-soft: #EAE0D5;
+  --vp-c-text-1: #3A2618;
+  --vp-c-text-2: #5C4733;
+}
+
+/* 导航栏样式 */
+.VPNav {
+  background-color: #3A2618 !important;
+}
+.VPNav a {
+  color: #F5F0E6 !important;
+}
+.VPNav a:hover {
+  color: #D4AF37 !important;
+}
+
+/* 按钮样式 */
+.VPButton.brand {
+  background-color: #D4AF37 !important;
+  color: #3A2618 !important;
+  border: none !important;
+}
+
+/* AI聊天框样式 */
+.ai-chat-box {
+  height: 400px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+  background: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.ai-message, .user-message {
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+.ai-message {
+  background-color: #F5F0E6;
+  float: left;
+  color: #3A2618;
+}
+.user-message {
+  background-color: #D4AF37;
+  color: #3A2618;
+  float: right;
+}
+.clearfix {clear: both;}
