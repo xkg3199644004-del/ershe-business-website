@@ -8,11 +8,11 @@ export default {
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
-      { text: "入驻指南", link: "/入驻指南/" },
-      { text: "优秀案例", link: "/优秀案例/" },
-      { text: "运营玩法", link: "/运营玩法/" },
-      { text: "常见问题", link: "/常见问题/" },
-      { text: "AI助手", link: "/AI助手/" },
+      { text: "入驻指南", link: "/guide/" },
+      { text: "优秀案例", link: "/cases/" },
+      { text: "运营玩法", link: "/ops/" },
+      { text: "常见问题", link: "/faq/" },
+      { text: "AI助手", link: "/ai/" },
     ],
     // 关闭右侧侧边栏
     sidebar: false,
